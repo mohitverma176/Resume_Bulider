@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+myapp/Backend/node_modules/
+myapp/frontend/node_modules/
+
+# Environment variables
+.env
+myapp/Backend/.env
+myapp/frontend/.env
+*.env.local
+
+# Builds
+dist/
+myapp/frontend/dist/
+
+# Uploads
+uploads/*
+!myapp/Backend/uploads/.gitkeep
+
+# Archives and temporary files
+*.zip
+Untitled.rss
+.DS_Store
+.idea/
+.vscode/
+
